@@ -1,0 +1,3 @@
+[submodule "aem-configuration"]
+	path = aem-configuration
+	url = https://github.com/rajnishkaushik/aem-configuration.git
