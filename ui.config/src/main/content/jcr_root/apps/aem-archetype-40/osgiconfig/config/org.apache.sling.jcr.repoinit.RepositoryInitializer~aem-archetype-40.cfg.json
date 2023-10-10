@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aem-archetype-40",
+        "create path (nt:unstructured) /content/dam/aem-archetype-40/jcr:content",
+        "set properties on /content/dam/aem-archetype-40/jcr:content\n  set cq:conf{String} to /conf/aem-archetype-40\n  set jcr:title{String} to \"AEM Archetype 40 Project\"\nend"
+    ]
+}

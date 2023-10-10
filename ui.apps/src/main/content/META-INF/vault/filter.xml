@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aem-archetype-40/clientlibs"/>
+    <filter root="/apps/aem-archetype-40/components"/>
+    <filter root="/apps/aem-archetype-40/i18n"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/msm/aem-archetype-40_blueprint" mode="merge"/>
+</workspaceFilter>

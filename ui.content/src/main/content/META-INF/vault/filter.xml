@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-archetype-40" mode="merge"/>
+    <filter root="/content/aem-archetype-40" mode="merge"/>
+    <filter root="/content/dam/aem-archetype-40" mode="merge">
+        <exclude pattern="/content/dam/aem-archetype-40(/.*)?"/>
+        <include pattern="/content/dam/aem-archetype-40/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-archetype-40/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-archetype-40" mode="merge"/>
+</workspaceFilter>
